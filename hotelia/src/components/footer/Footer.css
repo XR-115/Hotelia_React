@@ -1,0 +1,94 @@
+footer{
+    padding: 1.5em;
+    grid-area: footer;
+    background-color: #000;
+    color: azure;
+    display: grid;
+    gap: 1em;
+}
+
+.footer-columna1{
+    border-bottom: solid 1px azure;
+}
+
+.footer-columna1 i{
+    display: none;
+}
+.footer-columna1 p{
+    padding-bottom: 1rem;
+}
+
+.footer-columna2{
+    border-bottom: solid 1px azure;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.footer-columna2 i{
+    display: grid;
+    place-content: center;
+}
+.footer-columna2 p{
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+
+    
+}
+
+.footer-columna3{
+    border-bottom: solid 1px azure;
+    padding-bottom: 1rem;
+ 
+}
+.footer-columna3 p{
+    padding: 0.4rem;
+}
+
+.footer-columna4 i{
+    padding: 1rem;
+}
+
+@media screen and (min-width:768px) {
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3vh;
+    place-content: center;
+}
+
+.footer-columna1{
+    display: grid;
+    place-content: center;
+    border-bottom: none;
+}
+.footer-columna2{
+    display: grid;
+    place-content: center;
+    border-bottom: none;
+}
+.footer-columna3{
+    display: grid;
+    place-content: center;
+    border-bottom: none;
+}
+}
+
+@media screen and (min-width:1024px) {
+    .contenedor-grid{
+        display: grid;
+        grid-template-areas: 
+        "nav nav nav"
+        "bienvenida bienvenida bienvenida"
+        "info info info" 
+        "features features features"
+        "ubi ubi ubi"
+        "opi opi opi"
+        "footer footer footer";
+    }
+    
+    footer{
+        display: grid;
+        place-content: center;
+    }
+}

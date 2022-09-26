@@ -1,0 +1,138 @@
+.imagenes_320{
+    display: grid;
+    gap: 2rem;
+}
+.imagenes_320 img{
+    margin-top: -1rem;
+   height: 30px;
+   width: 30px;
+   border-radius: 5px;
+}
+.habitaciones{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    gap: 1rem;
+    width: 100%;
+}
+
+.reservas,.cerrarse{
+    display: flex;
+    justify-content: center;
+}
+
+ .reservas:hover{
+        
+    background-color: #135c9c;
+}
+
+.cerrarse:hover{
+    background-color: #135c9c;
+}
+
+@media screen and (min-width:768px) {
+    .imagenes_320 img {
+        display: none;
+    }
+
+    .contenedor-dashboard {
+        display: grid;
+        grid-template-columns: 30% 1fr;
+
+    }
+
+    .nombre-dashboard {
+        display: grid;
+        grid-template-rows: 30vh 1fr 10vh;
+        background: linear-gradient(rgb(12, 59, 98) 25%, rgb(48, 51, 66) 10%);
+        color: azure;
+        gap: 2rem;
+    }
+
+    .titulo-dashboard {
+        padding: 1rem;
+    }
+
+    .nombre-dashboard img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .datos-dash {
+        display: grid;
+        place-content: end;
+        padding-right: 1.2rem;
+    }
+
+    .habitaciones {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .reservas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 8vh;
+        font-size: 1.4rem;
+    }
+
+    .reservas p {
+        width: 50%;
+        padding-left: 1.5rem;
+    }
+
+    .cerrarse {
+        background-color: rgb(59, 62, 79);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cerrarse p {
+        font-size: 1.2rem;
+    }
+
+    .cerrarse i {
+        font-size: 2rem;
+        padding-right: 1rem;
+    }
+
+}
+@media screen and (min-width:1024px) {
+
+    .titulo-dasboard{
+        font-size: 1.8rem;
+    }
+    .contenedor-dashboard{
+        display: grid;
+        grid-template-columns: 25% 2fr;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width:1800px){
+
+}
+
+@media screen and (max-width:767px) {
+    .imagenes{
+        display: none;
+     }
+    .nombre-dashboard {
+        display: grid;
+        color: azure;
+        grid-template-rows: 15vh 2fr 1fr;
+        place-items: center;
+        background: linear-gradient(rgb(12, 59, 98) 10%, rgb(48, 51, 66) 10%);
+    }
+
+    .nombre-dashboard p,
+    h3 {
+        display: none;
+    }
+
+}

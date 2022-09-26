@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Login from './pages/login/Login';
 import Dashboard from './pages/dashboard/Dashboard';
+import Home from './components/page/Home.js'
+import Form from './components/page/Form';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +17,8 @@ root.render(
               <Routes>
                   <Route path='/Login'    element={<Login />}/>
                   <Route path='/Dashboard' element={<Dashboard />}/>
+                  <Route path='/Home' element={<Home />}/>
+                  <Route path='/Form' element={<Form />}/>
               </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -1,5 +1,5 @@
 
-import Registrar from '../Registrar/Registrar.js';
+import Registrar from '../components/Registrar/Registrar';
 
 function Form(){
     return (

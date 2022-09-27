@@ -4,7 +4,7 @@ import Footer from '../../components/footer/Footer';
 import DashMenu from '../../components/dashmenu/DashMenu';
 import Señora from '../../components/img/señora.png';
 import {Icon} from '../../components/icons/Icon';
-import { faBed, faConciergeBell, faDownload, faDownLong, faFileArrowUp } from '@fortawesome/free-solid-svg-icons';
+import {faDownload,faFileArrowUp } from '@fortawesome/free-solid-svg-icons';
 function Dashboard() {
     return (
         <div class="Dash">

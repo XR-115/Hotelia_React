@@ -6,8 +6,7 @@ function Nav() {
           <header >
           <nav>
         <div class="logo">
-             <img class="nav-icono" src={logo}>
-                </img>
+             <img class="nav-icono" src={logo} alt=""/> 
             <i class="fa-solid fa-bars"></i>
         </div>
 

@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+
 // import App from './components/app/App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Login from './pages/login/Login';
 import Dashboard from './pages/dashboard/Dashboard';
-import Home from './components/page/Home.js'
-import Form from './components/page/Form';
+import Home from './page/Home';
+import Form from './page/Form';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,9 +15,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
               <Routes>
-                  <Route path='/Login'    element={<Login />}/>
+                  <Route path='/Login' element={<Login />}/>
                   <Route path='/Dashboard' element={<Dashboard />}/>
-                  <Route path='/Home' element={<Home />}/>
+                  <Route path='/' element={<Home />}/>
                   <Route path='/Form' element={<Form />}/>
               </Routes>
     </BrowserRouter>

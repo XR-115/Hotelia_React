@@ -13,8 +13,8 @@ function Registrar() {
 
     <div class="contenedor-registro">
         <div class="titulo-registro">
-             <img src={reg}> 
-             </img> 
+             <img src={reg} alt=""/> 
+             
             <h1>Eres más que bienvenido</h1>
         </div>
   <div class="formulario-registro">

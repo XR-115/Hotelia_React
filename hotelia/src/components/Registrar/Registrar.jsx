@@ -14,6 +14,7 @@ function Registrar() {
 
                         <h1>Eres más que bienvenido</h1>
                     </div>
+                    
                     <div class="formulario-registro">
                         <form action="" class="form-regis">
                             <h1>Regístrate</h1>

@@ -1,5 +1,5 @@
 
-import Registrar from '../../components/registrar/Registrar';
+import Registrar from '../../components/Registrar/Registrar';
 import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
 

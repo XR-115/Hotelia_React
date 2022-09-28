@@ -26,6 +26,7 @@ function Dashboard() {
                                     <p>Cambiar <br/> contraseña</p>
                                 </div>
                         </div>
+                        
 
 
                         <div class="columna2-dash">

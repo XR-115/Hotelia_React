@@ -26,6 +26,7 @@ function Footer() {
                 <i class="fa-brands fa-twitter"></i>
             </div>
         </footer>
+        
     )
 }
 

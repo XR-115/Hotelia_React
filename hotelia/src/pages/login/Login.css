@@ -17,6 +17,7 @@
     background-position: center;
     background-color: rgb(240, 255, 255, 0.9);
     color: azure;
+    padding: 1rem;
 }
 
 .formulario img {
@@ -28,10 +29,10 @@
 .campos {
     display: grid;
 
-    padding: 1rem;
-    padding-top: 0rem;
-    grid-template-rows: 10vh 2rem 2rem 2rem;
-    place-content: center;
+    grid-template-rows: 15vh 2rem 2rem 2rem;
+    margin: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     gap: 2rem;
 }
 
@@ -41,6 +42,10 @@
     flex-direction: column;
     justify-self: center;
     align-self: center;
+    
+}
+input{
+    font-size: 1.2rem;
 }
 
 .inputs-form input,
@@ -50,11 +55,6 @@ button {
     border: 0px solid #000;
 }
 
-.usuario-form {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-}
 
 
 
@@ -70,16 +70,23 @@ button {
     border-radius: 4px;
     box-shadow: 5px 5px 12px -1px #2d2d2d;
 }
+.usuario-form i{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
 .usuario-form{
     background-color: #9C2759;
-    width: 50%;
-    border-radius: 49%;
+    width: 40%;
+    height: 80%;
+    border-radius: 80%;
     font-size: 4rem;
-    display: flex;
-    justify-content: center;
-    align-self: center;
+    display: grid;
+    place-self: center;
     
 }
+
+
 @media screen and (min-width: 768px) {
 
     /* ------------------------------------------------------FORMULARIO DE LOGIN RV 700PX------------------------------------------------------*/
@@ -99,82 +106,23 @@ button {
 
     /* ------------------------------------------------------FORMULARIO DE LOGIN RV------------------------------------------------------*/
     .form-login {
-        height: 80vh;
+        padding: 1rem;
         margin-left: 15rem;
         margin-right: 15rem;
         font-size: 1.5rem;
     }
 
-    .inputs-form {
-        width: 100%;
-        margin-top: 4rem;
-    }
+    
 
-    .enviar {
-        margin-top: 3rem;
-
-        height: 3rem;
-    }
-
-    .item1 {
-        width: 100%;
-        padding: 1rem 0;
-    }
-
-    .item1 {
-        grid-column: 4/5;
-    }
-
-    .item1:hover {
-        background-color: #1963a3;
-    }
-
-    .usuario-form{
-        width: 40%;
-        height: 80%;
-        border-radius: 60%;
-        font-size: 4rem;
-        display: flex;
-        margin-left: 100px;
-        margin-bottom: 100px;
-        justify-content: center;
-        align-self: center;
-        
-    }
 }
 
 @media screen and (min-width:1800px) {
 
     /* ------------------------------------------------------FORMULARIO DE LOGIN RV------------------------------------------------------*/
     .form-login {
-        height: 80vh;
         margin-left: 40rem;
         margin-right: 40rem;
         font-size: 1.5rem;
     }
-
-    .inputs-form {
-        width: 100%;
-    }
-
-    .enviar {
-        margin-top: 3rem;
-
-        height: 3rem;
-    }
-
-    .foto-perfil {
-        width: 60%;
-    }
-
-    .foto-perfil img {
-        height: 250px;
-    }
-
-    .titulo-registro h1 {
-
-        font-size: 3rem;
-    }
-
   
 }

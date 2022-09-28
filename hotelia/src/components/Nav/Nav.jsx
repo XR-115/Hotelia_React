@@ -1,10 +1,12 @@
 import './Nav.css';
 import logo from './Hotelia horizontal blanco.svg';
+import { Link } from "react-router-dom";
+
 function Nav() {
     return (
         <div className="nav">
-          <header >
-          <nav>
+          <header>
+          <nav class="navIndex">
         <div class="logo">
              <img class="nav-icono" src={logo} alt=""/> 
             <i class="fa-solid fa-bars"></i>
@@ -15,8 +17,13 @@ function Nav() {
             <a href="#ubicacion" class="item">Ubícanos</a>
             <a href="#opiniones" class="item">Opiniones</a>
           
-            <a href="login.html" class="items"><button class="navbar-button"><i class="fa-solid fa-user"></i> Iniciar
-                    Sesión</button></a>
+       
+              <Link to="/Login" class="item">
+                <button class="navbar-button" >
+                <i class="fa-solid fa-user"></i> Iniciar Sesión
+                </button>
+              </Link>
+            
         </div>
     </nav>
               </header>

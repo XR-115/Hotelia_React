@@ -2,8 +2,8 @@ import './Login.css';
 import Navbar from '../../components/navbar/Navbar';
 import Footer from'../../components/footer/Footer';
 import HoteliaNegro from '../../components/img/Hotelia horizontal negro.svg';
-import {Icon} from '../../components/icons/Icon';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
+
 
 
 function Login() {
@@ -15,7 +15,7 @@ function Login() {
                         <img src={HoteliaNegro} alt=""/>
                         <div class="campos">
                             <div class="usuario-form">
-                                <Icon css='icon' icon={faUser}/>
+                            <i class="fa-solid fa-user"></i>
                             </div>
                         <div class="inputs-form">
                             <label for="">Usuario</label>
@@ -31,6 +31,7 @@ function Login() {
                         </div>
                         <div class="inputs-form">
                             <label for="" class="recuperar">¿No tienes una cuenta?</label>
+                            <Link to="/Form">¡Registrate aquí!</Link>
                             </div>
                         </div>
                     </form>

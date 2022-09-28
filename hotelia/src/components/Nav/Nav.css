@@ -114,7 +114,7 @@ nav a:hover{
 
 @media screen and (min-width: 1024px){
     
-    nav{
+    .navIndex{
         display: flex;
         flex-direction: row;
         width: 100%;

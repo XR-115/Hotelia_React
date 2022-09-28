@@ -3,8 +3,7 @@ import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
 import DashMenu from '../../components/dashmenu/DashMenu';
 import Señora from '../../components/img/señora.png';
-import {Icon} from '../../components/icons/Icon';
-import {faDownload,faFileArrowUp } from '@fortawesome/free-solid-svg-icons';
+
 function Dashboard() {
     return (
         <div class="Dash">
@@ -20,8 +19,8 @@ function Dashboard() {
                         <div class="foto-perfil">
                             <img src={Señora} alt=""/>
                                 <div class="subir">
-                                    <i><Icon id="subir-remove" css='icon' icon={faFileArrowUp}/></i>
-                                    <i><Icon css='icon'icon={faDownload}/></i>
+                                    <i id="subir-remove" class="fa-solid fa-file-arrow-up"></i>
+                                    <i class="fa-solid fa-download"></i>
                                 </div>
                                 <div id="subir-remove" class="cambiar-contra">
                                     <p>Cambiar <br/> contraseña</p>

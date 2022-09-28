@@ -24,8 +24,9 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    padding: 40px;
-    height: 130%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 100vh;
 
     font-family: 'Playfair Display', serif;
     
@@ -37,11 +38,11 @@
     background-color: rgb(227, 234, 241,0.80);
     display: flex;
     width: 50%;
-    height: 780px;
+    border-radius: 10px;
+    height: 100vh;
     margin-left: 100px;
-    margin-top: 2%;
-    border-radius: 7px;
-    padding: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .contenido-registro{
@@ -53,14 +54,15 @@
 
 .form-regis{
     width: 100%;
-    padding: 20px;
 }
 
 .form-regis h1{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
     font-size: 50px;
     display: flex;
     justify-content: center;
-    margin-top: -5%;
+ 
 }
 
 .columna1{
@@ -99,12 +101,7 @@
     width: 100px;
 }
 
-.boton-reg{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: black;
-}
+
 
 .genero{
     width: 60%;

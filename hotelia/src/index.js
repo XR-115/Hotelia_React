@@ -6,8 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Login from './pages/login/Login';
 import Dashboard from './pages/dashboard/Dashboard';
-import Home from './page/Home';
-import Form from './page/Form';
+import Home from './pages/home/Home';
+import Form from './pages/form/Form';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

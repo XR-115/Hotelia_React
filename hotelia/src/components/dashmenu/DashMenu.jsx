@@ -2,8 +2,7 @@ import './DashMenu.css';
 
 import Hotelia from '../img/Hotelia horizontal blanco.svg';
 import Angie from '../img/Angie Vargas.png'
-import {Icon} from '../../components/icons/Icon';
-import { faBed, faConciergeBell } from '@fortawesome/free-solid-svg-icons';
+
 
 function DashMenu() {
     return (
@@ -24,19 +23,19 @@ function DashMenu() {
             </div>
             <div class="habitaciones">
                 <div class="reservas">
-                    <Icon css='icon' icon={faBed}/>
+                    <i class="fa-solid fa-bed"></i>
                     <p>Habitaciones</p>
                 </div>
                 <div class="reservas">
-                    <Icon css='icon' icon={faConciergeBell}/>
+                <i class="fa-solid fa-bell-concierge"></i>
                     <p>Reservas</p>
                 </div>
                 <div class="reservas">
-                    <Icon css='icon' icon={faBed}/>
+                <i class="fa-solid fa-bed"></i>
                     <p>Habitaciones</p>
                 </div>
                 <div class="reservas">
-                    <Icon css='icon' icon={faConciergeBell}/>
+                <i class="fa-solid fa-bell-concierge"></i>
                     <p>Habitaciones</p>
                 </div>
             </div>

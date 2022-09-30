@@ -10,7 +10,7 @@ function Header() {
     <div className='Header'>
  <div class="bienvenida">
 
-<h1>Lorem ipsum dolor sit amet consectetur, <br></br>adipisicing elit. Optio, dolore?
+<h1>Lorem ipsum dolor sit amet consectetur, <br></br>adipisicing elit. Optio, dolore
 </h1>
 
 </div>

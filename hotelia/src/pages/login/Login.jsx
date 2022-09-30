@@ -1,15 +1,18 @@
 import './Login.css';
-import Navbar from '../../components/navbar/Navbar';
+// import Navbar from '../../components/navbar/Navbar';
 import Footer from'../../components/footer/Footer';
 import HoteliaNegro from '../../components/img/Hotelia horizontal negro.svg';
 import { Link } from 'react-router-dom';
+import Nav from '../../components/Nav/Nav';
 
 
 
 function Login() {
     return(
         <div class="login">
-            <Navbar />,
+            <Nav 
+            inicio="Inicio"
+            />
                 <div class="formulario">
                     <form action="" class="form-login">
                         <img src={HoteliaNegro} alt=""/>

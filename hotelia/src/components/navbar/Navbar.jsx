@@ -2,7 +2,7 @@ import './Navbar.css';
 import Hotelia from '../img/Hotelia horizontal blanco.svg';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function Navbar(props) {
     return(
         <nav class="navbar">
             <div class="logo">
@@ -11,7 +11,7 @@ function Navbar() {
             </div>
 
             <div class="menu-nav" id="menu">
-             <Link to="/" class="item1">Inicio</Link>
+             <Link to="/" class="item1">{props.inicio}</Link>
             </div> 
         </nav>
     );

@@ -1,8 +1,10 @@
 import './Nav.css';
 import logo from './Hotelia horizontal blanco.svg';
 import { Link } from "react-router-dom";
+import { Inicio } from "react-router-dom";
 
-function Nav() {
+
+function Nav(props) {
     return (
         <div className="nav">
           <header>
@@ -13,19 +15,26 @@ function Nav() {
         </div>
 
         <div class="menu">
-            <a href="Index.html" class="item">Inicio</a>
-            <a href="#ubicacion" class="item">Ubícanos</a>
-            <a href="#opiniones" class="item">Opiniones</a>
+          
+            <a href="" class="item">{props.inicio}
+            <inicio to="/" class="item1"></inicio>
+            </a>
+
+            <a href="#ubicacion" class="item">{props.ubicanos}</a>
+            <a href="#opiniones" class="item">{props.opiniones}</a>
           
        
-              <Link to="/Login" class="item">
-                <button class="navbar-button" >
-                <i class="fa-solid fa-user"></i> Iniciar Sesión
+            <Link to="/Login" class="item">
+                <button class="navbar-button" >{props.iniciosesion}
+                 
                 </button>
               </Link>
             
         </div>
+        
     </nav>
+
+    
               </header>
         </div>
       );

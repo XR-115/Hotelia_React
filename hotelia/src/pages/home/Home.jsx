@@ -7,8 +7,17 @@ import Footer from '../../components/footer/Footer'
  function Home(){
     return (
         <div>
-        <Nav />
-        <Header />
+        <Nav
+         inicio="Inicio"
+         ubicanos="Ubicanos"
+         opiniones="Opiniones"
+         iniciosesion="Iniciar Sesion"
+        />
+        
+        
+        <Header 
+      
+        />
     <Footer/>
         </div>
       );

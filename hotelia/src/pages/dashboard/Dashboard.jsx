@@ -3,14 +3,13 @@ import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
 import DashMenu from '../../components/dashmenu/DashMenu';
 import Señora from '../../components/img/señora.png';
-import Nav from '../../components/Nav/Nav';
+
 
 function Dashboard() {
     return (
         <div class="Dash">
-             <Nav 
-            inicio="Inicio"
-            />
+             <Navbar/>
+             
             <div class='contenedor-dashboard'>
                 <DashMenu />
                 <div class="dashboard">

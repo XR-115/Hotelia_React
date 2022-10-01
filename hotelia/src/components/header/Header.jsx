@@ -2,6 +2,7 @@ import './Header.css'
 import imagen2 from './Hotelia negro vertical.svg';
 import Iframe from 'react-iframe';
 import Opiniones from '../opiniones/Opiniones';
+import Cards from '../../components/cards/Cards';
 
 function Header() {
     return (
@@ -33,27 +34,12 @@ function Header() {
 
 
 
-<section id="features">
-<h2 class="features-title">Razones por las que disfrutarás quedarte con nosotros</h2>
-<div class="features-description">
-    <div class="feature feature-blue">
-        <i class="fa-solid fa-bell-concierge"></i>
-        <p>Lorem ipsum dolor</p>
-    </div>
-    <div class="feature feature-black">
-        <i class="fa-solid fa-bed"></i>
-        <p>Lorem ipsum dolor</p>
-    </div>
-    <div class="feature feature-blue">
-        <i class="fa-solid fa-wifi"></i>
-        <p>Lorem ipsum dolor</p>
-    </div>
-    <div class="feature feature-black">
-        <i class="fa-solid fa-dumbbell"></i>
-        <p>Lorem ipsum dolor</p>
-    </div>
-</div>
-</section>
+<Cards 
+iconBell="fa-solid fa-bell-concierge"
+iconBed="fa-solid fa-bed"
+iconWifi="fa-solid fa-wifi"
+iconDumbbell="fa-solid fa-dumbbell"
+texto="Lorem ipsum dolor"/>
 
 <div class="ubicacion" id="ubicacion">
         <h1>Ubícanos</h1>

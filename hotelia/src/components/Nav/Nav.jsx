@@ -1,7 +1,7 @@
 import './Nav.css';
 import logo from './Hotelia horizontal blanco.svg';
 import { Link } from "react-router-dom";
-import { Inicio } from "react-router-dom";
+
 
 
 function Nav(props) {
@@ -16,7 +16,7 @@ function Nav(props) {
 
         <div class="menu">
           
-            <a href="" class="item">{props.inicio}
+            <a href="asd" class="item">{props.inicio}
             <inicio to="/" class="item1"></inicio>
             </a>
 

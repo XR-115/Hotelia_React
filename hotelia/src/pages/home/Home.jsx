@@ -4,6 +4,7 @@ import Nav from '../../components/Nav/Nav';
 import Footer from '../../components/footer/Footer'
 
 
+
  function Home(){
     return (
         <div>
@@ -13,11 +14,8 @@ import Footer from '../../components/footer/Footer'
          opiniones="Opiniones"
          iniciosesion="Iniciar Sesion"
         />
+        <Header />
         
-        
-        <Header 
-      
-        />
     <Footer/>
         </div>
       );

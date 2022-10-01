@@ -1,19 +1,37 @@
-import './Navbar.css';
-import Hotelia from '../img/Hotelia horizontal blanco.svg';
 import { Link } from 'react-router-dom';
+import logo from '../../components/img/Hotelia horizontal blanco.svg';
 
-function Navbar(props) {
-    return(
-        <nav class="navbar">
-            <div class="logo">
-                <img class="nav-icono" src={Hotelia} alt=""/>
-                <i class="fa-solid fa-bars"></i>
-            </div>
+function Navbar() {
+    return (
+        <div className="nav">
+            <header>
+                <nav class="navIndex">
+                    <div class="logo">
+                        <img class="nav-icono" src={logo} alt="" />
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
 
-            <div class="menu-nav" id="menu">
-             <Link to="/" class="item1">{props.inicio}</Link>
-            </div> 
-        </nav>
+                    <div class="menu">
+
+                        <Link to="/Dashboard" class="item">
+                            <a href='aasdasd.html' class="item">Dashboard</a>
+                        </Link>
+
+
+                        <Link to="/" class="item">
+                            <button class="navbar-button" >
+                                Inicio
+                            </button>
+                        </Link>
+
+
+                    </div>
+
+                </nav>
+
+
+            </header>
+        </div>
     );
 }
 
